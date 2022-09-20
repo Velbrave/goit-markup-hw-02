@@ -1,0 +1,100 @@
+/*цвет герой #FFFFFF; */
+/* цвет заголовков #212121; */
+/* цвет текста #757575; */
+/* цвет ссилки #2196F3; */
+/* цвет кнопки #188CE8 */
+/* фон героя і подвала #2F303A */
+/*цвет ссилки подвала  rgba(255, 255, 255, 0.6);*/
+/* цвет фона команди #F5F4FA; */
+/* цвет фона чим займаємось #F5F5F5; */
+body {
+    color: #757575;
+    background-color: #2F303A;
+}
+.list {
+    list-style: none;
+}
+
+/* heder */
+
+.heder-fone {
+    background-color: #FFFFFF;
+}
+.logo {
+color: #2196F3;
+}
+.logo span {
+    color:#000000 ;
+}
+.nav a {
+    color: #212121;
+}
+.nav a:hover,
+.nav a:focus{
+    color: #2196F3;
+}
+.nav-link a {
+    color: #757575;
+}
+.nav-link a:hover,
+.nav-link a:focus {
+    color: #2196F3;
+}
+
+/* hero */
+
+.hero-title {
+    color: #FFFFFF;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* section */
+.section {
+    background-color: #F5F5F5;
+}
+.section-title {
+    color: #212121;
+}
+.feature .feature-title {
+    color: #212121;
+}
+
+/* working */
+
+.working {
+    background-color: #F5F4FA;
+}
+.working-title {
+    color: #212121;
+}
+.page .page-title {
+    color: #212121;
+}
+
+/* footer */
+
+.logo-fut {
+    color: #2196F3;
+}
+
+.logo-fut span {
+    color: #FFFFFF;
+}
+.addres .addres-map a {
+    color: #FFFFFF;
+}
+.addres .addres-link a {
+    color: rgba(255, 255, 255, 0.6);
+}
+.addres .addres-map a:hover,
+.addres .addres-map a:focus {
+    color: #2196F3;
+}
+
+.addres .addres-link a:hover,
+.addres .addres-link a:focus {
+    color: #2196F3;
+}
