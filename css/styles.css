@@ -20,7 +20,7 @@
 }
 body {
     color: var(--title-text-color);
-    background-color: var(--primary-bg-color);
+    background-color: var(--first-bg-color);
 }
 .list {
     list-style: none;
@@ -57,6 +57,9 @@ color: var(--accent-color);
 
 /* hero */
 
+.hero {
+    background-color: var(--primary-text-color);
+}
 .hero-title {
     color: var(--primary-white-color);
 }
@@ -95,6 +98,9 @@ color: var(--accent-color);
 
 /* footer */
 
+.futer {
+    background-color: var(--primary-text-color);
+}
 .logo-fut {
     color: var(--accent-color);
 }
@@ -116,4 +122,18 @@ color: var(--accent-color);
 .addres .addres-link a:hover,
 .addres .addres-link a:focus {
     color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+
+
+.button-port {
+    color: var(--primary-text-color);
+    background-color: var(--second--bg-color);
+}
+
+.button-port:hover,
+.button-port:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
