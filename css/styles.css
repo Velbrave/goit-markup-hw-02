@@ -7,9 +7,20 @@
 /*цвет ссилки подвала  rgba(255, 255, 255, 0.6);*/
 /* цвет фона команди #F5F4FA; */
 /* цвет фона чим займаємось #F5F5F5; */
+:root {
+   --primary-text-color:#212121;
+   --title-text-color:#757575;
+   --accent-color:#2196F3;
+   --primary-white-color:#FFFFFF;
+   --primary-bg-color:#2F303A;
+   --first-logo-color:#000000;
+   --first-bg-color:#F5F5F5;
+   --second--bg-color:#F5F4FA;
+   --primary-addres-color:rgba(255, 255, 255, 0.6);
+}
 body {
-    color: #757575;
-    background-color: #2F303A;
+    color: var(--title-text-color);
+    background-color: var(--primary-bg-color);
 }
 .list {
     list-style: none;
@@ -18,83 +29,91 @@ body {
 /* heder */
 
 .heder-fone {
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
 }
 .logo {
-color: #2196F3;
+color: var(--accent-color);
 }
 .logo span {
-    color:#000000 ;
+    color: var(--first-logo-color) ;
 }
 .nav a {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .nav a:hover,
 .nav a:focus{
-    color: #2196F3;
+    color: var(--accent-color);
+}
+.nav .curent{
+    color: var(--accent-color)
 }
 .nav-link a {
-    color: #757575;
+    color: var(--title-text-color);
 }
 .nav-link a:hover,
 .nav-link a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* hero */
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 .button {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
 }
 
 /* section */
 .section {
-    background-color: #F5F5F5;
+    background-color: var(--first-bg-color);
 }
 .section-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .feature .feature-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /* working */
 
 .working {
-    background-color: #F5F4FA;
+    background-color: var(--second--bg-color);
 }
 .working-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .page .page-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /* footer */
 
 .logo-fut {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-fut span {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 .addres .addres-map a {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 .addres .addres-link a {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-addres-color);
 }
 .addres .addres-map a:hover,
 .addres .addres-map a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .addres .addres-link a:hover,
 .addres .addres-link a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
