@@ -182,18 +182,17 @@ body {
 /* PORTFOLIO */
 
 
-.button-port {
+.button-port .item {
     color: var(--primary-text-color);
     background-color: var(--second--bg-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     cursor: pointer;
 }
 
-.button-port:hover,
-.button-port:focus {
+.button-port .item:hover,
+.button-port .item:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
